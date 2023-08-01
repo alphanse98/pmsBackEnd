@@ -19,7 +19,8 @@ const gallerySchema = new mongoose.Schema(
       imgPdfLocation: String,  
       isActive: Boolean,  
       premium: Boolean,  
-      imgLocatrions: Array, 
+      imgLocations: Array, 
+      pdfLocation: String, 
       //seo 
       imgAlt: String,
       seoTitle: String,
