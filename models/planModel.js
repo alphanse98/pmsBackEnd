@@ -13,7 +13,7 @@ const mongoose = require('mongoose')
     dimension: String,  
     area: String,  
     facing: String,  
-    vasthu: Boolean,  
+    vasthu: String,  
     details: Array,  
     filter: String,  
     imgPdfLocation: String,  
@@ -22,7 +22,6 @@ const mongoose = require('mongoose')
     imgLocations: Array, 
     pdfLocation: String, 
     //seo 
-    imgAlt: String,
     seoTitle: String,
     seoKeyWords: String,
     seoDiscription: String,
